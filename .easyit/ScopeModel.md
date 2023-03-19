@@ -15,8 +15,8 @@ FrameworkModel 包含多个 ApplicationModel, ApplicationModel 包含多个 Modu
 
 ### FrameworkModel 的构造
 
-FrameworkModel 并不是按照单例来设计的, 但在常规使用中, 可以将 FrameworkModel 看成一个单例,
-通过 [FrameworkModel.defaultModel() 方法](../dubbo-common/src/main/java/org/apache/dubbo/rpc/model/FrameworkModel.java#L171)
+FrameworkModel 并不是按照单例来设计的, 但在常规使用中, 可以将 FrameworkModel 看成一个单例.
+通过 FrameworkModel.defaultModel() 方法 [获取 FrameworkModel 实例](../dubbo-common/src/main/java/org/apache/dubbo/rpc/model/FrameworkModel.java#L171)
 获取.
 
 在 [获取 DubboBootstrap 实例](../dubbo-demo/dubbo-demo-api/dubbo-demo-api-provider/src/main/java/org/apache/dubbo/demo/provider/Application.java#L48)
